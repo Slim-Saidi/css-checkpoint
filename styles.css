@@ -1,0 +1,130 @@
+.nav-bar ul {
+  list-style: none;
+  background: black;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav-bar li {
+  display: inline-block;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: gold;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav-bar a:hover {
+  background-color: gold;
+  color: black;
+  transition: 0.5s;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background: url(/img/50_Cent.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay {
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 100%;
+}
+#welcome {
+  font-family: "Sansita Swashed", cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  color: gold;
+}
+#firstpic {
+    text-align: center;
+}
+.toppic img {
+    border-style: outset;
+    border-color: gold;
+    border-radius: 15px;
+    border-width: 5px;
+}
+h2 {
+  font-family: "Sansita Swashed", cursive;
+  color: gold;
+}
+p {
+   color: white; 
+}
+#anotherlist {
+    text-align: left;
+    color: gold;
+}
+#song {
+    color: white;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: white;
+}
+.cpic {
+    text-align: center;
+}
+.cpic img {
+    border-style: outset;
+    border-color: gold;
+    border-radius: 50%;
+    border-width: 3px;
+}
+#bestsongs {
+    text-align: center;
+}
+#bestsongs div {
+    display: inline-block;
+    border-style: inset;
+    border-radius: 15px;
+    width: 29%;
+    border-color: gold;
+    border-width: 7px;
+}
+#bestsongs img {
+    border-style: outset;
+    border-color: gold;
+    border-width: 5px;
+    border-radius: 15%;
+}
+h3 {
+    color: white;
+}
+#bestsongs h3:hover {
+    color: gold;
+    transition: 0.5s;
+}
+#contact {
+    text-align: center;
+}
+#contact form {
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+}
+form input, textarea {
+    border-style: outset;
+    border-color: gold;
+    border-radius: 5px;
+}
+#button1 {
+    background-color: gold;
+    border-color: black;
+    color: black;
+    padding: 5px 20px;
+    font-size: 15px;
+}
